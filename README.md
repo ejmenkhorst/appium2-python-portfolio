@@ -1,22 +1,26 @@
-# appium2-python-portfolio
-Appium2 playground project for exploring the latest version.  
-For Android and IOS there are sample apps in the folder [testapps](testapps).  
+# Appium2 with Python
+
+The purpose of this Appium2 playground project is to explore the latest version Appium version and see what is needed to
+get it all up and running.
+
+## Mobile apps
+
+For Android and IOS we use the lambdatest sample app called [Proverbialfrom](testapps) they are included in this
+repository.
+
+## Installation instructions for local setup
+
+Please follow the [installation instructions mac](./documentation/installation_mac.md) before executing tests in this
+framework.
 
 ## Local project setup  
 Please install all required packages by running ``` pip install -r requirements.txt```  
-To run the test locally please install the following tools:  
+To run the test locally we make use of the PyTest framework.
 
-- [Android Studio](https://developer.android.com/studio) SDK and emulators
-- [Appium Inspector](https://github.com/appium/appium-inspector) A GUI inspector for mobile apps  
-- [Install and Setup of Appium Server](https://dpgraham.github.io/appium-docs/setup/running-on-windows/) ````npm install -g appium````
-- [Appium Doctor](https://github.com/appium/appium/tree/master/packages/doctor) Attempts to diagnose and fix common Node, iOS and Android configuration issues before starting Appium  
+## Running tests locally
 
-### Appium server requirements  
-To install appium server please look at the following [requirements](https://appium.io/docs/en/2.0/intro/requirements/).
+In order to run tests locally we need to do the following:
 
-
-
-
-
-
-
+1. Start appium server via terminal with ``` appium ```
+2. Start emulator you want to run the tests on
+3. Run the tests ``` pytest tests/android/test.py ```
