@@ -53,7 +53,7 @@ This should output for example: **18.12.0**
 
 - [Appium Inspector](https://github.com/appium/appium-inspector) A GUI inspector for mobile apps
 - [Install and Setup of Appium Server](https://dpgraham.github.io/appium-docs/setup/running-on-windows/) ``` npm install -g appium ```
-- [Appium Doctor](https://github.com/appium/appium/tree/master/packages/doctor) ``` npm install ``` @appium/doctor -g
+- [Appium Doctor](https://github.com/appium/appium/tree/master/packages/doctor) ``` npm install  @appium/doctor -g ```
   Attempts to diagnose and fix common Node, iOS and Android configuration issues before starting Appium
 
 #### Appium server requirements
@@ -88,7 +88,7 @@ To check the names of your emulators you can run the following command in the te
 
 #### Setup Apple emulators for Appium Inspector
 
-In Xcode you can create specific emulators, for the demo it is recommended to have at least the following:
+In Xcode, you can create specific emulators, for the demo it is recommended to have at least the following:
 
 * Iphone SE with latest IOS version
 * Ipad Air with the latest IOS version
